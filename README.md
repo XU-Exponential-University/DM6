@@ -4,7 +4,9 @@ A web-based application built with FastAPI to manage users. The system supports 
 - List all users.
   - Accessiable via:
     - Public: `http://localhost:5000/`
+      ![alt text](https://github.com/XU-Exponential-University/DM6/blob/main/imgs/1.png?raw=true)
     - Admin: `http://localhost:5000/users/`
+      ![alt text](https://github.com/XU-Exponential-University/DM6/blob/main/imgs/2.png?raw=true)
 - Create a new user.
   - Accessible via: `http://localhost:5000/users/creat`
 - Edit an existing user.
