@@ -31,5 +31,5 @@ A web-based application built with FastAPI to manage users. The system supports 
 
 ## Styling
 - Bootstrap: Provides responsive design and pre-built components and added to the `base.html` file
-- Google Fonts: Used to improve typography and added `(https://fonts.google.com/specimen/Rubik)[Rubik]` font to the `base.html` file 
+- Google Fonts: Used to improve typography and added `[Rubik](https://fonts.google.com/specimen/Rubik)` font to the `base.html` file 
 - Font Awesome: Adds icons for better visual representation. Please add your own kit in `base.html` file
