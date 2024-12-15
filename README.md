@@ -72,7 +72,7 @@ pip install -r requirements.txt
         - If successful, Click OK to save the data source.
         - Expand the connected MySQL data source in the Database tab and click on `...` and select `All Schemes`
         - Right click on `MyUserServer` and select `New > Query Console`
-        - Run the following in the `console`
+        - Run the following SQL statements in the `console`
           ```mysql
           CREATE DATABASE user_management;
           USE user_management;
@@ -84,4 +84,18 @@ pip install -r requirements.txt
           password VARCHAR(30) NOT NULL
           );
           ```
-7. 
+7. Update the database connection in `app/database.py`:
+  ```python
+  connection = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  password="secret", # Replace with your MySQL password
+  database="user_management"
+  port=3310 # Replace it if you are using another port nr
+  )
+  ```
+8. Run the app
+  ```shell
+  uvicorn app.main:app --port 5000 --reload
+  ```
+## Usage
