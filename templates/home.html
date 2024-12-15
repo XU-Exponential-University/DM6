@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="d-flex flex-row-reverse">
+    <div class="p-2"><a class="btn btn-primary btn-sm" href="/users">Go to Dashboard! <i class="fa-solid fa-key"></i></a></div>
+</div>
+        <h2 class="mt-5">Expand your Network</h2>
+
+        <p>Connect with people:</p>
+
+
+
+        <table class="table">
+            {% for user in users %}
+            <tr>
+                <td>{{ user.id }}</td>
+                <td><i class="fa-regular fa-envelope"></i> {{ user.email }}</td>
+                <td><a href="" class="btn btn-outline-success btn-sm">Connect <i class="fa-regular fa-user"></i></td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
+</div>
+{% endblock %}
+
