@@ -9,10 +9,13 @@ A web-based application built with FastAPI to manage users. The system supports 
       ![alt text](https://github.com/XU-Exponential-University/DM6/blob/main/imgs/2.png?raw=true)
 - Create a new user.
   - Accessible via: `http://localhost:5000/users/creat`
+    ![alt text](https://github.com/XU-Exponential-University/DM6/blob/main/imgs/3.png?raw=true)
 - Edit an existing user.
   - Accessible via: `http://localhost:5000/users/edit/{user_id}`
+    ![alt text](https://github.com/XU-Exponential-University/DM6/blob/main/imgs/4.png?raw=true)
 - Delete a user.
   - Accessible via: `http://localhost:5000/users/delete/{user_id}`
+    ![alt text](https://github.com/XU-Exponential-University/DM6/blob/main/imgs/5.png?raw=true)
 
 ## Folder Structure
 ```
