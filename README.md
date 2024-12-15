@@ -103,5 +103,3 @@ pip install -r requirements.txt
   ```shell
   uvicorn app.main:app --port 5000 --reload
   ```
-## Usage
-![alt text](https://github.com/XU-Exponential-University/DM6/blob/main/imgs/1.png?raw=true)
